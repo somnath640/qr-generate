@@ -1,0 +1,14 @@
+{
+  "name": "qr-generate",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/firebase.js",
+    "build": "node --check src/firebase.js",
+    "lint": "node --check src/firebase.js"
+  },
+  "dependencies": {
+    "firebase": "^11.1.0"
+  }
+}
